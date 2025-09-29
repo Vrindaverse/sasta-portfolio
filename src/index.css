@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply the hero gradient as the default background for the whole site */
+body {
+  @apply bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white;
+  min-height: 100vh;
+  background-attachment: fixed; /* nice parallax effect when scrolling */
+}
+
+/* Radial overlay for subtle effects, can be added per section */
+/* Hide default cursor */
+/* body {
+  cursor: none;
+} */
+
+/* Optional: Add a glowing effect to the body */
+
+
